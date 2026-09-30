@@ -180,17 +180,17 @@ create index if not exists chunks_embedding_idx
 
 - **アドバイザー名簿**: 学生ごとの担当アドバイザーが書かれた表。ただし面談可能な日時は載っていない
 
-![令和8年度後期 1回生アドバイザー名簿(サンプル)](images/ai-librarian-demo-advisor-roster.png)
+![令和8年度後期 1回生アドバイザー名簿(サンプル)](https://raw.githubusercontent.com/bigshine777/zenn-content/master/images/ai-librarian-demo-advisor-roster.png)
 
 - **面談日程表**: アドバイザーごとの面談可能日時・連絡先が書かれた、別の表。ただしどの学生を担当しているかは載っていない
 
-![履修登録に伴うアドバイザーとの面談日程表(サンプル)](images/ai-librarian-demo-meeting-schedule.png)
+![履修登録に伴うアドバイザーとの面談日程表(サンプル)](https://raw.githubusercontent.com/bigshine777/zenn-content/master/images/ai-librarian-demo-meeting-schedule.png)
 
 この2つは別々の資料なので、「ある学生の面談日程」を知るには、名簿でアドバイザー名を調べてから、面談日程表をそのアドバイザー名で調べ直す必要があります。まさに「検索の仕組み」で書いた多段階検索が必要になる場面です。
 
 実際に聞いてみた結果がこちらです。
 
-![AI Librarianが山田太郎さんのアドバイザーの面談日程を回答している画面](images/ai-librarian-demo-advisor-schedule.png)
+![AI Librarianが山田太郎さんのアドバイザーの面談日程を回答している画面](https://raw.githubusercontent.com/bigshine777/zenn-content/master/images/ai-librarian-demo-advisor-schedule.png)
 
 「山田太郎さんのアドバイザーとの面談はいつ可能ですか?」と聞くと、まず名簿から山田太郎さんのアドバイザーが鈴木一郎(教授)だと特定し、「名簿の対応表だけでは面談日時は分かりません」と一度正直に留保した上で、別資料の面談日程表から鈴木一郎の面談可能日時(10月1日・2日・6日の時間帯、5日は不可)と予約用のメールアドレスまで拾って回答できています。
 
