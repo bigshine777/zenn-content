@@ -3,7 +3,7 @@ title: "学生が無料枠だけでRAGシステムを作った話"
 emoji: "📚"
 type: "tech"
 topics: ["rag", "azure", "supabase", "python", "githubactions"]
-published: false
+published: true
 ---
 
 ## 概要
