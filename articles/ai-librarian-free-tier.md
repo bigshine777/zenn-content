@@ -143,7 +143,8 @@ ai-librarian/
 ## 検索の仕組み
 
 「技術スタックと構成」で軽く触れた検索の中身を、もう少し詳しく書きます。
-もっと根本的に、ベクトル検索の仕組みを知りたい場合は、[Supabaseのドキュメント](https://supabase.com/docs/guides/ai)や他のQiita記事を参照してください
+
+チャンク分割・埋め込み・ベクトル検索・HNSWといった要素技術そのものをもう少し体系的に知りたい場合は、[RAGを支える6つの技術を調べてみた](https://zenn.dev/bigshine777/articles/rag-fundamentals)にまとめています。より根本的に、ベクトル検索の公式な仕組みを知りたい場合は[Supabaseのドキュメント](https://supabase.com/docs/guides/ai)も参考になります。
 
 ### 登録時: チャンク分割と埋め込み
 
